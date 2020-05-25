@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+*.log
+*.temp
+*.iml
+node_modules
+examples
+test/examples
+lib
+package-lock.json
+yarn.lock
