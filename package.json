@@ -1,14 +1,18 @@
 {
-	"name": "parserc",
+	"name": "parse-combinator",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Haskell's parsec implemented in typescript",
+	"main": "src/parsec.ts",
 	"scripts": {
 		"test": "jest"
 	},
-	"keywords": [],
-	"author": "zisu",
-	"license": "ISC",
+	"keywords": [
+		"parsec",
+		"parse-combinator",
+		"parser"
+	],
+	"author": "stickmy",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/jest": "^25.1.0",
 		"jest": "^25.1.0",
