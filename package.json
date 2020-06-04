@@ -1,10 +1,11 @@
 {
 	"name": "parse-combinator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Haskell's parsec implemented in typescript",
-	"main": "src/parsec.ts",
+	"main": "lib/parsec.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"build": "rm -rf lib && tsc"
 	},
 	"keywords": [
 		"parsec",
